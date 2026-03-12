@@ -12,6 +12,8 @@
 
 ## Why This Matters
 
+![Analytics](docs/architecture.png)
+
 Voice AI is moving fast — contact centers are projected to automate over 80% of routine calls by 2027. But automation without guardrails is a liability. A single mishandled cancellation, an unverified identity change, or a hallucinated policy answer can cost a company real money and erode customer trust overnight.
 
 The industry's core problem isn't building voice bots — it's knowing **when the bot should stop talking and hand the call to a human**. Most production incidents trace back to the same gap: there's no reliability layer between the AI and the caller. No confidence threshold. No policy gate. No audit trail.
