@@ -1,0 +1,28 @@
+[project]
+name = "callguard"
+version = "0.1.0"
+description = "AI Escalation & Recovery Engine for Voice Agents"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]",
+    "sqlalchemy[asyncio]",
+    "aiosqlite",
+    "alembic",
+    "pydantic-settings",
+    "structlog",
+    "streamlit",
+    "plotly",
+    "httpx",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+
+[dependency-groups]
+dev = [
+    "pytest",
+    "pytest-asyncio",
+    "httpx",
+    "ruff",
+]
